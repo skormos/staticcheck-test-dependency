@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println("testing this thing")
 	fmt.Println(utils.SoSad("lack of beer"))
-
 	fmt.Println(utils.Awesome("fridge of beer"))
 }
