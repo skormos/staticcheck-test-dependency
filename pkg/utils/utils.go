@@ -8,7 +8,12 @@ func Awesome(s string) string {
 }
 
 // SoSad is meant to be sad.
+//
 // Deprecated: Not sad anymore, use Awesome instead.
 func SoSad(s string) string {
 	return fmt.Sprintf("so sad your %s is not awesome", s)
+}
+
+func SoSoSad(s string) string {
+	return SoSad(s)
 }
